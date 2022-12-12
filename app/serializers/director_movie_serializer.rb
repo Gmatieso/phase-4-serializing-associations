@@ -1,3 +1,3 @@
 class DirectorMovieSerializer < ActiveModel::Serializer
-  attributes :id
+  attributes :title, :year
 end
